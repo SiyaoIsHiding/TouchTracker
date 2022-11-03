@@ -16,6 +16,8 @@
 		3FFD67F6291319D400E6EB3B /* TouchTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD67F5291319D400E6EB3B /* TouchTrackerTests.swift */; };
 		3FFD6800291319D400E6EB3B /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD67FF291319D400E6EB3B /* TouchTrackerUITests.swift */; };
 		3FFD6802291319D400E6EB3B /* TouchTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD6801291319D400E6EB3B /* TouchTrackerUITestsLaunchTests.swift */; };
+		3FFD680F29131A2200E6EB3B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD680E29131A2200E6EB3B /* Line.swift */; };
+		3FFD681129131A8D00E6EB3B /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD681029131A8D00E6EB3B /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3FFD67FB291319D400E6EB3B /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFD67FF291319D400E6EB3B /* TouchTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITests.swift; sourceTree = "<group>"; };
 		3FFD6801291319D400E6EB3B /* TouchTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FFD680E29131A2200E6EB3B /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		3FFD681029131A8D00E6EB3B /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3FFD67E7291319D400E6EB3B /* Assets.xcassets */,
 				3FFD67E9291319D400E6EB3B /* LaunchScreen.storyboard */,
 				3FFD67EC291319D400E6EB3B /* Info.plist */,
+				3FFD680E29131A2200E6EB3B /* Line.swift */,
+				3FFD681029131A8D00E6EB3B /* DrawView.swift */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFD67E3291319D000E6EB3B /* ViewController.swift in Sources */,
+				3FFD681129131A8D00E6EB3B /* DrawView.swift in Sources */,
+				3FFD680F29131A2200E6EB3B /* Line.swift in Sources */,
 				3FFD67DF291319D000E6EB3B /* AppDelegate.swift in Sources */,
 				3FFD67E1291319D000E6EB3B /* SceneDelegate.swift in Sources */,
 			);
